@@ -40,7 +40,7 @@ args=(
   # -device usb-mouse,bus=ehci.0
   # -device nec-usb-xhci,id=xhci
   -device isa-applesmc,osk="ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-  -drive if=pflash,format=raw,readonly=true,file="$REPO_PATH/$OVMF_DIR/OVMF_CODE.fd"
+  -drive if=pflash,format=raw,readonly=on,file="$REPO_PATH/$OVMF_DIR/OVMF_CODE.fd"
   -drive if=pflash,format=raw,file="$REPO_PATH/$OVMF_DIR/OVMF_VARS-1024x768.fd"
   -smbios type=2
   -device ich9-intel-hda -device hda-duplex
