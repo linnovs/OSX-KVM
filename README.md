@@ -98,6 +98,14 @@ Phenom II X3 720 does not. Ryzen processors work just fine.
   cd OSX-KVM
   ```
 
+  Repository updates can be pulled via the following command:
+
+  ```
+  git pull --rebase
+  ```
+
+  This repository uses rebase based workflows heavily.
+
 * Fetch macOS installer.
 
   ```
@@ -245,6 +253,12 @@ Gabriel Somlo also has [some thoughts](http://www.contrib.andrew.cmu.edu/~somlo/
 
 You may also find [this 'Announcing Amazon EC2 Mac instances for macOS' article](https://aws.amazon.com/about-aws/whats-new/2020/11/announcing-amazon-ec2-mac-instances-for-macos/
 ) interesting.
+
+Note: It is your responsibility to understand, and accept (or not accept) the
+Apple EULA.
+
+Note: This is not legal advice, so please make the proper assessments yourself
+and discuss with your lawyers if you have any concerns (Text credit: Dortania)
 
 
 ### Motivation
